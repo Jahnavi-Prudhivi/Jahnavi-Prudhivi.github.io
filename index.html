@@ -1,0 +1,1281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jahnavi Prudhivi | Portfolio</title>
+  <meta name="description" content="Jahnavi Prudhivi — Robotics Engineering + Computer Science at WPI. Projects in robotics, perception, computer vision, and software." />
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+
+<header>
+  <div class="container">
+    <div class="nav">
+      <div class="brand">
+        <strong>Jahnavi Prudhivi</strong>
+        <span>Robotics Engineering • Computer Science • WPI</span>
+      </div>
+
+      <ul>
+        <li><a class="nav-link" href="#home">Home</a></li>
+        <li><a class="nav-link" href="#experience">Work Experience</a></li>
+        <li class="dropdown">
+          <a class="nav-link" href="#projects" aria-haspopup="true">Projects ▾</a>
+          <div class="menu" role="menu">
+            <a class="nav-link" href="#robotics">Robotics</a>
+            <a class="nav-link" href="#cs">Computer Science</a>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</header>
+
+<main>
+  <!-- HOME / HERO -->
+  <section id="home" class="reveal">
+    <div class="container">
+      <div class="hero-grid">
+        <div>
+          <h1>Hi, I’m Jahnavi.</h1>
+
+          <p class="lead">
+            I’m a senior at Worcester Polytechnic Institute (WPI), pursuing dual majors in Robotics Engineering and Computer Science. I’m interested in systems at the intersection of robotics, perception and software, with work spanning autonomous systems, computer vision, machine learning and software design.
+          </p>
+
+          <p class="lead">
+            Through academic projects and research, I’ve gained experience taking ideas from concept to implementation, focusing on building, testing, and iterating on real-world systems. Outside of academics, I’ve been serving as the South Asian Student Association Executive Board since junior year, leading the largest cultural student organization on campus.
+          </p>
+
+          <p class="lead">
+            I’m currently seeking opportunities in robotics, computer vision, software engineering and applied research where I can continue to grow as an engineer and researcher.
+          </p>
+
+          <div class="cta">
+            <a class="btn resume-btn" href="resume.pdf" download>Download Resume</a>
+            <a class="btn" href="#robotics">Robotics Projects</a>
+            <a class="btn" href="#cs">CS Projects</a>
+          </div>
+
+          <a class="back-top" href="#home">Back to top ↑</a>
+        </div>
+
+        <aside class="profile" aria-label="profile image">
+          <div class="avatar">
+            <img
+              src="headshot.jpg"
+              alt="Headshot of Jahnavi Prudhivi"
+              class="avatar-img"
+            />
+          </div>
+        </aside>
+      </div>
+    </div>
+  </section>
+
+  <!-- WORK EXPERIENCE -->
+  <section id="experience" class="reveal">
+    <div class="container">
+      <div class="section-head">
+        <h2>Work Experience</h2>
+        <p>Industry + research roles</p>
+      </div>
+
+      <div class="timeline">
+
+        <div class="tl-item current">
+          <div class="tl-rail">
+            <div class="tl-icon" aria-hidden="true">💼</div>
+            <div class="tl-dot" aria-hidden="true"></div>
+          </div>
+
+          <div class="tl-content">
+            <h3 class="tl-role">
+              Perception and Autonomous Robotics | R&D Engineer and Researcher
+              <span class="now-badge">● Now</span>
+            </h3>
+            <div class="tl-date">Aug 2025 — Present</div>
+            <ul class="tl-bullets">
+              <li>Developed deep-learning–based depth map models using a UNet architecture for lensless imaging, leveraging custom-fabricated lithographic phase mask optics and Intel RealSense data as ground truth</li>
+               <li>Researched and applied lensless imaging techniques (Diffuser and Phase Masks) to put on a dragonfly-sized drone
+              </li>
+              <li>Implemented image reconstruction algorithms (ADMM, FISA, Nesterov) for image reconstruction and UNet for depth estimation for autonomy  
+              </li>
+
+            </ul>
+            
+          </div>
+        </div>
+
+        <div class="tl-item">
+          <div class="tl-rail">
+            <div class="tl-dot" aria-hidden="true"></div>
+          </div>
+
+          <div class="tl-content">
+            <h3 class="tl-role">The Autonomous Vehicle Mobility Institute  | R&D Engineer</h3>
+            <div class="tl-date">Aug 2024 - May 2025</div>
+            <ul class="tl-bullets">
+              <li>Used path planning methods in the simulation of autonomous and unmanned vehicles for exploration in severe terrain</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="tl-item">
+          <div class="tl-rail">
+            <div class="tl-dot" aria-hidden="true"></div>
+          </div>
+
+          <div class="tl-content">
+            <h3 class="tl-role">API Support & Development Intern for SOLIDWORKS | Dassault Systèmes</h3>
+            <div class="tl-date">May 2024 - Aug 2024</div>
+            <ul class="tl-bullets">
+              <li>Assisted and supported SOLIDWORKS and Connected CAD API for customers, partners, and internal teams</li>
+              <li>Tested and automated sample code in VBA and C#, and controlled SOLIDWORKS functions</li>
+              <li>Created project specifications based on customer and partner insights to develop new APIs for future SOLIDWORKS versions</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="tl-item">
+          <div class="tl-rail">
+            <div class="tl-dot" aria-hidden="true"></div>
+          </div>
+
+          <div class="tl-content">
+            <h3 class="tl-role">AI Project Tester | ASSISTments </h3>
+            <div class="tl-date">Feb 2023 - May 2023</div>
+            <ul class="tl-bullets">
+              <li>Tested image processing capabilities by integrating machine-learning techniques to strip PII from 100,000 image datasets</li>
+            </ul>
+          </div>
+        </div>
+
+        
+
+      </div>
+
+      <a class="back-top" href="#home">Back to top ↑</a>
+    </div>
+  </section>
+
+  <!-- Anchor for Projects dropdown -->
+  <div id="projects" aria-hidden="true"></div>
+
+  <!-- ROBOTICS PROJECTS -->
+  <section id="robotics" class="reveal">
+    <div class="container">
+      <div class="section-head">
+        <h2>Robotics Projects</h2>
+        <p>Click the project for more details</p>
+      </div>
+
+      <div class="grid">
+        <article class="card" tabindex="0" data-project="pear">
+          <h3>Perception and Autonomous Robotics</h3>
+          <p class="meta">Aerial Robot / Perception System</p>
+          <p class="desc">Manufactured phase mask and developed depth maps model using UNet</p>
+        </article>
+
+        <article class="card" tabindex="0" data-project="3dof">
+          <h3>3 DOF Robot</h3>
+          <p class="meta">Manipulator Control</p>
+          <p class="desc">Controlled a robotics arm through forward & inverse and trajectory planning, and camera calibration using MATLAB</p>
+        </article>
+
+        <article class="card" tabindex="0" data-project="maze">
+          <h3>Escape Maze Robot</h3>
+          <p class="meta">Autonomous Navigation</p>
+          <p class="desc">Programmed robots that navigate via line & wall following, PID, detecting April Tags for localization and communicating through MQTT</p>
+        </article>
+
+        <article class="card" tabindex="0" data-project="solarRobo">
+          <h3>Solar Panel Robot</h3>
+          <p class="meta">Autonomous Task / Navigation</p>
+          <p class="desc">Designed four-bar for servo-actuated gripper and programmed FSM to remove and replace solar panels</p>
+        </article>
+
+        <article class="card" tabindex="0" data-project="frc">
+          <h3>FRC Robot at Dassault Systemes</h3>
+          <p class="meta">Software-Leader for SOLIDWORKS</p>
+          <p class="desc">Led the software team of 10 interns to create robot localization, positional accuracy and locate objects. Coded Mecanum Drive train</p>
+        </article>
+
+        <article class="card" tabindex="0" data-project="soundbox">
+          <h3>ECE SoundBox</h3>
+          <p class="meta">Embedded & Signal Processing</p>
+          <p class="desc">Embedded audio project</p>
+        </article>
+      </div>
+
+      <a class="back-top" href="#home">Back to top ↑</a>
+    </div>
+  </section>
+
+  <!-- CS PROJECTS -->
+  <section id="cs" class="reveal">
+    <div class="container">
+      <div class="section-head">
+        <h2>Computer Science Projects</h2>
+        <p>Click the project for more details</p>
+      </div>
+
+      <div class="grid">
+        
+        <article class="card" tabindex="0" data-project="cf">
+          <h3>Collaborative Filtering</h3>
+          <p class="meta">Similarity-Based Recommendation</p>
+          <p class="desc">Implements a collaborative filtering recommender system that predicts user preferences by analyzing patterns in user–item interactions and generating ranked recommendations.</p>
+        </article>
+
+        <article class="card" tabindex="0" data-project="faceid">
+          <h3>FaceID</h3>
+          <p class="meta">Face Recognition & Convolutional Classification</p>
+          <p class="desc">Built a CNN-based face recognition pipeline for binary image classification, implementing the full training loop from forward pass to convergence and exploring how learned visual features enable identity-based decisions.</p>
+        </article>
+
+        <article class="card" tabindex="0" data-project="chatgpt">
+          <h3>ChatGPT</h3>
+          <p class="meta">Natural Language Processing & Transformer Attention</p>
+          <p class="desc">Built core components of a ChatGPT-style language model by implementing RNN baselines and Transformer self-attention from scratch to understand sequence modeling and token interactions.</p>
+        </article>
+
+
+
+        <article class="card" tabindex="0" data-project="mlhw">
+          <h3>Supervised and Unsupervised Machine Learning from scratch</h3>
+          <p class="meta">K-means, Ward linkage, affinity propagation, logistic regression, SVMs</p>
+          <p class="desc">Implemented and evaluated clustering and classification methods with metric-driven analysis (supervised and unsupervised)</p>
+        </article>
+
+        <article class="card" tabindex="0" data-project="asl">
+          <h3>ASL Gesture Recognition</h3>
+          <p class="meta">Vision-based ML & CV</p>
+          <p class="desc">Built a real-time computer vision system that translates American Sign Language (ASL) hand gestures into text and speech, combining gesture recognition with an end-to-end accessibility-focused ML pipeline.</p>
+        </article>
+
+        <article class="card" tabindex="0" data-project="moneyball">
+          <h3>Moneyball</h3>
+          <p class="meta">Data Mining & Sports Analytics</p>
+          <p class="desc">Built a Python pipeline to compute batting metrics, merge datasets, and generate player value rankings</p>
+        </article>
+
+
+        <article class="card" tabindex="0" data-project="pagerank">
+          <h3>PageRank</h3>
+          <p class="meta">Graph Structures </p>
+          <p class="desc">Built and analyzed a PageRank implementation to explore graph structure, convergence, and ranking dynamics.</p>
+        </article>
+
+
+        <article class="card" tabindex="0" data-project="focuslab">
+          <h3>FocusLAB</h3>
+          <p class="meta">Human-Centered Design & UX Research</p>
+          <p class="desc"> FocusLAB applies human-centered design principles to investigate how interface design can reduce distraction and support sustained focus.</p>
+        </article>
+
+        <article class="card" tabindex="0" data-project="facemash">
+          <h3>FaceMash</h3>
+          <p class="meta">Pairwise Ranking & Preference Modeling</p>
+          <p class="desc">Interactive voting application designed to collect and analyze pairwise preference data.
+</p>
+        </article>
+      </div>
+
+
+
+      <a class="back-top" href="#home">Back to top ↑</a>
+    </div>
+  </section>
+</main>
+
+<!-- MODAL (popup) -->
+<div class="modal-backdrop" id="backdrop" aria-hidden="true">
+  <div class="modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+    <div class="modal-head">
+      <div class="modal-title" id="modalTitle">Project Title</div>
+      <button class="close" id="closeBtn" aria-label="Close">✕</button>
+    </div>
+    <div class="modal-body" id="modalBody"></div>
+  </div>
+</div>
+
+<footer>
+  <div class="container">
+    <div class="footer-row">
+      <div>
+        <strong>Contact Me</strong>
+        <div style="font-size:0.92rem; opacity:0.75;">LinkedIn • GitHub • Email</div>
+      </div>
+      <div class="links">
+        <a class="link" href="https://www.linkedin.com/in/jahnavi-prudhivi/" target="_blank" rel="noopener">LinkedIn</a>
+        <a class="link" href="https://github.com/Jahnavi-Prudhivi" target="_blank" rel="noopener">GitHub</a>
+        <a class="link" href="mailto:jahnaviprudhivi2004@gmail.com">Email</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script>
+  // ===== Project Modal =====
+  const projects = {
+   pear: {
+  title: "Perception and Autonomous Robotics",
+  body: `
+    <div class="modal-section">Overview</div>
+
+    <p>
+      The goal of this project was to design a fully lensless camera system
+      by replacing a traditional lens with a <strong>custom phase mask</strong>,
+      also allowing for measurable depth estimation. The system was designed to mount on a <strong>dragonfly-sized aerial robot </strong>.
+    </p>
+
+    <p>
+      A phase mask modulates incoming light waves directly onto the image sensor. The phase mask was
+      custom manufactured using two-photon lithography with a
+      NanoScribe GT, and ZYGO optical profilometer for validation. 
+    </p>
+
+    <p>
+      A <strong>custom UNet-based deep learning model</strong> was created to estimate
+      depth from phase-mask images (using an Intel RealSense camera as ground
+      truth). The custom fabricated approach did not yield reliable depth
+      reconstruction, the project provided valuable insight into system limitations
+      and informed the next design iteration, which explores
+      multi-lens compound arrays.
+    </p>
+
+    <div class="modal-section">Technical details & experiments</div>
+
+    <ul>
+      <li>Optical design and fabrication of a custom phase mask</li>
+      <li>PSF (Point Spread Function) estimation using primal–dual optimization</li>
+      <li>UNet training for depth estimation with supervised ground truth</li>
+      <li>Analysis of failure modes and system limitations</li>
+    </ul>
+
+    <div class="modal-section">Papers & test results</div>
+
+    <a
+      class="pdf-card"
+      href="media/pear/A_Term_Lensless_Drone_Report.pdf"
+      target="_blank"
+      rel="noopener"
+    >
+      <div class="pdf-icon"></div>
+      <div>
+        <strong>A Term Report</strong>
+        <p>Lensless drone system design, fabrication, and experiments.</p>
+      </div>
+    </a>
+
+    <a
+      class="pdf-card"
+      href="media/pear/B_Term_Lensless_Drone_Report.pdf"
+      target="_blank"
+      rel="noopener"
+    >
+      <div class="pdf-icon"></div>
+      <div>
+        <strong>B Term Report</strong>
+        <p>Extended testing, analysis, and lessons learned.</p>
+      </div>
+    </a>
+
+    <div class="modal-section">GitHub repositories</div>
+
+    <div class="repo-list">
+
+      <a
+        class="repo-card"
+        href="https://github.com/Jahnavi-Prudhivi/PSF-Deconvolution"
+        target="_blank"
+        rel="noopener"
+      >
+        <div class="repo-dot"></div>
+        <div>
+          <strong>PSF Deconvolution</strong>
+          <p>
+            Estimates the point spread function using primal–dual optimization from
+            blurred phase-mask images and sharp references.
+          </p>
+        </div>
+      </a>
+
+      <a
+        class="repo-card"
+        href="https://github.com/HudsonKortus/lensless_perception"
+        target="_blank"
+        rel="noopener"
+      >
+        <div class="repo-dot"></div>
+        <div>
+          <strong>UNet Depth Estimation</strong>
+          <p>
+            Trains a UNet model using paired RealSense depth data and phase-mask
+            images to predict scene depth.
+          </p>
+        </div>
+      </a>
+
+    </div>
+  `
+},
+"3dof": {
+  title: "3-DOF Robot (OpenManipulator-X)",
+  body: `
+    <div class="modal-section">Overview</div>
+
+    <p>
+      The goal of this project was to control a <strong>3-Degree-of-Freedom (DOF)
+      OpenManipulator-X</strong> robot arm using <strong>MATLAB</strong> and the
+      <strong>Dynamixel SDK</strong> on <strong>Ubuntu</strong>, enabling the system
+      to autonomously <strong>identify, manipulate, and sort objects</strong>.
+    </p>
+
+    <div class="modal-section">Methods</div>
+
+    <ul>
+      <li><strong>Forward kinematics:</strong> Denavit–Hartenberg (DH) convention</li>
+      <li><strong>Inverse kinematics:</strong> Jacobian-based methods</li>
+      <li><strong>Trajectory planning:</strong> Smooth joint-space motion</li>
+      <li><strong>Computer vision:</strong> Camera calibration and object detection</li>
+      <li><strong>Closed-loop control:</strong> Visual feedback for autonomous manipulation</li>
+    </ul>
+
+    <div class="modal-section">Videos</div>
+
+    <div class="media">
+
+      <figure>
+        <video controls preload="metadata" playsinline>
+          <source src="./media/3dof/application_video_.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+        <figcaption>
+          <strong>Full application demo:</strong> End-to-end autonomous manipulation and sorting.
+        </figcaption>
+      </figure>
+
+      <figure>
+        <video controls preload="metadata" playsinline>
+          <source src="./media/3dof/robot_pose_.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+        <figcaption>
+          <strong>Robot pose estimation:</strong> Vision-based pose detection and alignment.
+        </figcaption>
+      </figure>
+
+      <figure>
+        <video controls preload="metadata" playsinline>
+          <source src="./media/3dof/ball_tracking_.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+        <figcaption>
+          <strong>Ball tracking:</strong> Real-time object tracking using camera feedback.
+        </figcaption>
+      </figure>
+
+    </div>
+  `
+},
+
+
+maze: {
+  title: "Escape Maze Robot",
+  body: `
+    <div class="modal-section">Overview</div>
+
+    <p>
+      The goal of this project was to design and program a team of <strong>four autonomous robots</strong>
+      to escape a dynamic, grid-based maze while <strong>communicating and coordinating</strong> with one
+      another. Because the environment was reconfigurable, the robots had to respond to changing maze
+      topology and real-time sensor feedback rather than relying on a predefined map. The objective was
+      for at least one robot to locate and escape through a hidden exit while the team worked together
+      to unlock the escape mechanism.
+    </p>
+
+    <div class="modal-section">System workflow</div>
+
+    <p>
+      A multi-stage interaction was required to unlock the escape door. One robot navigated the maze
+      perimeter to locate and press a lever, triggering the display of an <strong>AprilTag</strong> that
+      encoded the escape door’s location and orientation. Another robot interpreted this information to
+      generate a <strong>three-digit IR code</strong>, which was transmitted to the final robot responsible
+      for navigating to the correct cell, flashing the code, and escaping through the door.
+    </p>
+
+    <div class="modal-section">Autonomy & coordination</div>
+
+    <ul>
+      <li>Autonomous exploration using <strong>line following</strong> and <strong>wall following</strong></li>
+      <li><strong>PID control</strong> and <strong>finite-state machines (FSMs)</strong> for robust behavior sequencing</li>
+      <li>Detection and interaction with maze elements such as <strong>ramps</strong>, <strong>buttons</strong>, and <strong>platforms</strong></li>
+      <li>Shared team knowledge and coordination using <strong>MQTT-based communication</strong></li>
+    </ul>
+
+    <div class="modal-section">Videos</div>
+
+    <div class="media">
+
+      <figure>
+        <video controls preload="metadata" playsinline>
+          <source src="./media/maze/robotd_ramp.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+        <figcaption>
+          <strong>AprilTag detection on a ramp using line following, with coordinates shared to teammate robots</strong>
+        </figcaption>
+      </figure>
+
+      <figure>
+        <video controls preload="metadata" playsinline>
+          <source src="./media/maze/wallfollowing_pid.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+        <figcaption>
+          <strong>Wall-following using an ultrasonic range sensor with PID control</strong>
+        </figcaption>
+      </figure>
+
+      <figure>
+        <video controls preload="metadata" playsinline>
+          <source src="./media/maze/navigation_intersections_robot_a.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+        <figcaption>
+          <strong>Line following and intersection detection by Robot A</strong>
+        </figcaption>
+      </figure>
+
+    </div>
+  `
+},
+
+
+solarRobo: {
+  title: "Solar Panel Robot",
+  body: `
+    <div class="modal-section">Overview</div>
+
+    <p>
+      This project focused on designing and coding an <strong>autonomous robot</strong> capable of replacing
+      solar panels on a simulated solar farm. The robot was required to navigate between multiple houses,
+      remove old solar panels mounted at different angles, and replace them with new panels, all
+      autonomously.
+    </p>
+
+    <div class="modal-section">System design</div>
+
+    <p>
+      The system integrated <strong>mechanical design</strong>, <strong>embedded control</strong>, and
+      <strong>autonomous navigation</strong>. A custom <strong>four-bar mechanism</strong> and
+      <strong>servo-actuated gripper</strong> were designed in <em>SOLIDWORKS</em> to securely grasp and
+      transport solar panels.
+    </p>
+
+    <p>
+      Navigation was implemented using a <strong>line-following algorithm</strong>, with additional logic
+      to detect stopping conditions and resume motion via <strong>IR remote commands</strong>. Robot
+      behavior was structured using a <strong>finite state machine (FSM)</strong> to manage task sequencing
+      such as navigation, pickup, transport, alignment, and placement.
+    </p>
+
+    <div class="modal-section">Engineering considerations</div>
+
+    <p>
+      The project included design constraints and analysis for reliable manipulation, including
+      <strong>gear reduction</strong>, <strong>torque limits</strong>, and <strong>force analysis</strong>
+      for safe panel handling.
+    </p>
+
+    <div class="modal-section">Design & hardware</div>
+
+    <div class="media">
+      <figure>
+        <img
+          src="./media/solarRobo/solar_robot.png"
+          alt="Four-bar linkage and servo-actuated gripper design for solar panel handling"
+        />
+        <figcaption>
+          <strong>Four-bar linkage and servo-actuated gripper</strong> designed in SOLIDWORKS for panel manipulation.
+        </figcaption>
+      </figure>
+    </div>
+  `
+},
+
+    
+frc: {
+  title: "FRC Robot at Dassault Systèmes",
+  body: `
+    <div class="modal-section">Overview</div>
+
+    <p>
+      This project was led by <strong>Dassault Systèmes (SOLIDWORKS)</strong>, where I served as the
+      <strong>Software Lead</strong>, overseeing both the <strong>Computer Vision</strong> and
+      <strong>Drive Code</strong> teams. I led a team of <strong>10 interns</strong>, coordinating
+      system design and integration across perception and motion subsystems.
+    </p>
+
+    <div class="modal-section">Computer vision & localization</div>
+
+    <p>
+      The computer vision pipeline was developed using <strong>Python</strong>, an
+      <strong>ELP camera</strong>, and a <strong>Raspberry Pi</strong>, enabling
+      <strong>AprilTag-based robot localization</strong>. To improve positional accuracy and object
+      localization, I engineered a <strong>triangulation-based algorithm</strong> that fused vision
+      outputs with robot pose estimation.
+    </p>
+
+    <div class="modal-section">Drive control & leadership</div>
+
+    <p>
+      In parallel, I implemented the <strong>Mecanum drive train</strong> in <strong>Java</strong>,
+      enabling omnidirectional motion control. I also organized and delivered internal lectures
+      covering <strong>drive code architecture</strong>, <strong>computer vision fundamentals</strong>,
+      and <strong>software best practices</strong>, ensuring consistency and technical alignment across
+      the team.
+    </p>
+
+    <div class="modal-section">Demonstration & presentation</div>
+
+    <p>
+      The project concluded with a <strong>live system demonstration and technical presentation</strong>
+      at the <strong>Dassault Systèmes headquarters</strong>, delivered to employees, senior leadership,
+      and <strong>C-suite executives</strong>, showcasing the system’s computer vision, localization,
+      and drive control capabilities.
+    </p>
+
+    <div class="modal-section">Media</div>
+
+    <div class="media">
+      <figure>
+        <video controls preload="metadata" playsinline>
+          <source src="./media/frc/dassault_robot.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+        <figcaption>
+          Initial robot iteration during early development and integration.
+        </figcaption>
+      </figure>
+
+      <figure>
+        <img
+          src="./media/frc/solidworks_team.jpg"
+          alt="Software team presenting the robot system at Dassault Systèmes headquarters"
+        />
+        <figcaption>
+          Intern project team at Dassault Systèmes.
+        </figcaption>
+      </figure>
+    </div>
+  `
+},
+
+soundbox: {
+  title: "ECE SoundBox",
+  body: `
+    <div class="modal-section">Demo</div>
+
+   <div class="media">
+    <video controls preload="metadata" playsinline>
+      <source src="./media/soundbox/ece_soundbox.mp4" type="video/mp4" />
+    </video>
+  </div>
+
+  `
+},
+
+
+    
+moneyball: {
+  title: "Moneyball",
+  body: `
+    <div class="modal-section">Overview</div>
+
+    <p>
+      This project explored how data-driven analysis can be used to evaluate baseball players beyond
+      traditional statistics, inspired by the <em>Moneyball</em> approach to roster construction.
+      Using historical MLB datasets, I built an analytics pipeline to identify
+      <strong>high-performing yet cost-effective players</strong> by combining performance metrics
+      with salary data.
+    </p>
+
+    <div class="modal-section">Methods &amp; Analysis</div>
+
+    <p>
+      Raw batting statistics were processed to compute both traditional and sabermetric metrics,
+      including <strong>batting average (BA)</strong>, <strong>on-base percentage (OBP)</strong>,
+      <strong>slugging percentage (SLG)</strong>, <strong>total bases</strong>, and derived run/win
+      estimates. I developed reusable data-processing utilities to clean, filter, aggregate, and
+      merge multiple datasets, enabling consistent analysis across seasons. Player performance data
+      was joined with salary information, and constraints such as minimum at-bats and salary caps
+      were applied to ensure fair comparisons.
+    </p>
+
+    <div class="modal-section">Results &amp; Insights</div>
+
+    <p>
+      Players were ranked under multiple evaluation criteria, revealing how advanced metrics can
+      surface <strong>undervalued players</strong> who outperform their cost. The project
+      demonstrated how analytical modeling and feature engineering can directly inform
+      decision-making, highlighting the power of data mining techniques in real-world sports
+      analytics scenarios.
+    </p>
+
+    <div class="modal-section">Tools &amp; Techniques</div>
+
+    <ul>
+      <li>Python, pandas, NumPy</li>
+      <li>Feature engineering and aggregation</li>
+      <li>Data merging, filtering, and ranking</li>
+      <li>Metric-based evaluation and comparison</li>
+    </ul>
+
+    <div class="modal-section">GitHub</div>
+
+    <div class="repo-list">
+      <a
+        class="repo-card"
+        href="https://github.com/Jahnavi-Prudhivi/moneyball"
+        target="_blank"
+        rel="noopener"
+      >
+        <div class="repo-dot"></div>
+        <div>
+          <strong>Moneyball Repository</strong>
+          <p>
+            Data-processing pipeline used to compute metrics and generate player rankings.
+          </p>
+        </div>
+      </a>
+    </div>
+  `
+},
+
+facemash: {
+  title: "FaceMash",
+  body: `
+    <div class="modal-section">Overview</div>
+
+    <p>
+      This project recreates a <strong>FaceMash-style voting web application</strong> where users are presented
+      with two images at a time and select which one “wins.” Each page load
+      <strong>randomly samples a new pair</strong> of distinct photos, creating a dynamic experience rather than
+      relying on fixed or predefined matchups.
+    </p>
+
+    <p>
+      The application was built using <strong>Python and Flask</strong>, with a simple routing flow: the homepage
+      renders the image matchup, and each vote is processed through a dedicated
+      vote/winner/loser endpoint. Votes are stored as ordered pairs
+      <strong>(winner, loser)</strong>, forming a clean dataset that can later be used for ranking algorithms
+      or preference modeling.
+    </p>
+
+    <div class="modal-section">How it works</div>
+
+    <p>
+      The core logic ensures valid matchups by randomly sampling two different image IDs on each page load.
+      A template renders the selected images, and when a user clicks to vote, the result is logged and the
+      application immediately <strong>redirects back to the homepage</strong> with a newly generated matchup.
+      This loop keeps interactions fast, continuous, and lightweight.
+    </p>
+
+    <div class="modal-section">Tech stack</div>
+
+    <ul>
+      <li><strong>Backend:</strong> Python, Flask</li>
+      <li><strong>Frontend:</strong> HTML/CSS, Flask templates</li>
+      <li><strong>Logic:</strong> Random pair sampling, vote logging, redirect-based interaction loop</li>
+    </ul>
+
+    <div class="modal-section">GitHub</div>
+
+    <div class="repo-list">
+      <a
+        class="repo-card"
+        href="https://github.com/Jahnavi-Prudhivi/facemash"
+        target="_blank"
+        rel="noopener"
+      >
+        <div class="repo-dot"></div>
+        <div>
+          <strong>FaceMash Repository</strong>
+          <p>
+            Flask-based voting application featuring random image matchups and structured
+            vote logging for preference analysis.
+          </p>
+        </div>
+      </a>
+    </div>
+  `
+},
+
+pagerank: {
+  title: "PageRank",
+  body: `
+    <div class="modal-section">Overview</div>
+
+    <p>
+      This project implements and analyzes the <strong>PageRank</strong> algorithm to study how
+      <strong>graph structure</strong> influences node importance in directed networks.
+    </p>
+
+    <p>
+      I built PageRank from scratch using an iterative probability update with a
+      <strong>damping factor</strong> and a <strong>convergence</strong> stopping condition, ensuring stable
+      behavior even in the presence of rank sinks and disconnected components.
+    </p>
+
+    <div class="modal-section">What I explored</div>
+
+    <p>
+      The implementation was evaluated across different graph topologies and parameter
+      settings to analyze <strong>convergence speed</strong> and how ranking outcomes change
+      with link structure variations.
+    </p>
+
+    <div class="modal-section">Skills &amp; tools</div>
+
+    <ul>
+      <li>Graph algorithms and ranking systems</li>
+      <li>Iterative numerical methods (convergence and stability)</li>
+      <li>Python for implementation and analysis</li>
+    </ul>
+
+    <div class="modal-section">GitHub</div>
+
+    <div class="repo-list">
+      <a
+        class="repo-card"
+        href="https://github.com/Jahnavi-Prudhivi/pagerank"
+        target="_blank"
+        rel="noopener"
+      >
+        <div class="repo-dot"></div>
+        <div>
+          <strong>PageRank Repository</strong>
+          <p>
+            Implements PageRank from scratch and analyzes convergence behavior across different graph structures.
+          </p>
+        </div>
+      </a>
+    </div>
+  `
+},
+
+    
+    cf: {
+  title: "Collaborative Filtering",
+  body: `
+    <div class="modal-section">Overview</div>
+
+    <p>
+      This project builds a <strong>collaborative filtering recommender system</strong> that predicts user preferences
+      by learning from <strong>user–item interaction patterns</strong> (ratings or choices). Instead of using item
+      descriptions, the model recommends items based on similarities across users and items.
+    </p>
+
+    <p>
+      I implemented the pipeline by constructing a <strong>user–item matrix</strong> and generating ranked
+      recommendations using similarity-based scoring. Recommendations can be formed by comparing
+      <strong>similar users</strong> (user-based CF) or <strong>similar items</strong> (item-based CF), then aggregating
+      signals to estimate which unseen items a user is most likely to prefer.
+    </p>
+
+    <div class="modal-section">What I focused on</div>
+
+    <ul>
+      <li><strong>Modeling interactions:</strong> building a user–item matrix and estimating missing preferences</li>
+      <li><strong>Similarity + ranking:</strong> generating recommendation scores and sorting top results</li>
+      <li><strong>Practical challenges:</strong> handling sparsity and ensuring stable recommendations with limited data</li>
+      <li><strong>Evaluation:</strong> thinking through how to measure recommendation quality (ranking accuracy, consistency)</li>
+    </ul>
+
+    <div class="modal-section">Skills &amp; tools</div>
+
+    <ul>
+      <li>Recommender systems (collaborative filtering)</li>
+      <li>Similarity metrics + ranking logic</li>
+      <li>Python (implementation + analysis)</li>
+    </ul>
+
+    <div class="repo-list">
+      <a
+        class="repo-card"
+        href="https://github.com/Jahnavi-Prudhivi/pagerank"
+        target="_blank"
+        rel="noopener"
+      >
+        <div class="repo-dot"></div>
+        <div>
+          <strong>Collaborative Filtering Repository</strong>
+          <p>
+            Collaborative filtering system for generating personalized recommendations from user–item interaction data.
+          </p>
+        </div>
+      </a>
+    </div>
+  `
+},
+
+faceid: {
+  title: "FaceID",
+  body: `
+    <div class="modal-section">Overview</div>
+
+    <p>
+      This project implements a <strong>FaceID-style facial recognition system</strong> designed to
+      identify individuals based on visual features extracted from face images. The focus was on
+      understanding the full recognition pipeline rather than relying on prebuilt libraries or APIs.
+    </p>
+
+    <p>
+      I built a supervised learning workflow that processes face images, extracts discriminative
+      features, and trains a classifier to distinguish between identities. Emphasis was placed on
+      <strong>image preprocessing</strong> and <strong>feature representation</strong> to improve
+      robustness across lighting conditions and facial variations.
+    </p>
+
+    <div class="modal-section">What I explored</div>
+
+    <ul>
+      <li>Image preprocessing and normalization</li>
+      <li>Feature extraction for facial representation</li>
+      <li>Supervised classification for identity recognition</li>
+      <li>Evaluation of accuracy and model behavior</li>
+    </ul>
+
+    <div class="modal-section">Skills &amp; tools</div>
+
+    <ul>
+      <li>Computer vision and image-based classification</li>
+      <li>Supervised learning pipelines</li>
+      <li>Python (data processing, modeling, evaluation)</li>
+    </ul>
+
+    <div class="modal-section">GitHub</div>
+<div class="repo-list">
+  <a class="repo-card" href="https://github.com/Jahnavi-Prudhivi/faceid" target="_blank" rel="noopener">
+    <div class="repo-dot"></div>
+    <div>
+      <strong>FaceID Repository</strong>
+      <p>Training pipeline + model code for CNN-based face classification / recognition demo.</p>
+    </div>
+  </a>
+</div>
+  `
+},
+
+
+
+chatgpt: {
+  title: "ChatGPT (Transformer Attention from Scratch)",
+  body: `
+    <div class="modal-section">Overview</div>
+
+    <p>
+      This project was a hands-on deep dive into the core mechanics behind modern language models like
+      <strong>ChatGPT</strong>. I implemented sequence modeling components in <strong>PyTorch</strong>,
+      building an understanding of how models learn from ordered token data.
+    </p>
+
+    <p>
+      I started with an <strong>RNN baseline</strong> to model sequential structure, including a custom
+      training loop and loss computation. From there, I moved to a <strong>Transformer-style attention</strong>
+      implementation to understand how attention replaces recurrence and enables long-range token interactions.
+    </p>
+
+    <div class="modal-section">What I built</div>
+
+    <p>
+      I implemented a <strong>single-head attention layer</strong> from scratch, covering the full attention pipeline:
+      <strong>QK dot-product scoring</strong>, <strong>scaling</strong>, <strong>masking</strong>,
+      <strong>softmax normalization</strong>, and <strong>weighted value aggregation</strong>. The attention
+      computation was packaged into clean, modular classes (attention head + residual connection + layer norm),
+      mirroring real Transformer architecture patterns.
+    </p>
+
+    <div class="modal-section">Key technical concepts</div>
+
+    <ul>
+      <li><strong>Self-attention:</strong> Learns token-to-token relationships using Q/K/V projections</li>
+      <li><strong>Causal / attention masking:</strong> Prevents attending to invalid or future positions during scoring</li>
+      <li><strong>Residual + LayerNorm:</strong> Improves training stability and gradient flow</li>
+    </ul>
+
+    <div class="modal-section">Skills &amp; tools</div>
+
+    <ul>
+      <li>PyTorch (nn.Module, tensor ops, modular architecture)</li>
+      <li>Iterative model building (RNN baseline → attention-based module)</li>
+      <li>Numerical stability (scaling, masking, softmax behavior)</li>
+    </ul>
+
+    <div class="modal-section">GitHub</div>
+<div class="repo-list">
+  <a class="repo-card" href="https://github.com/Jahnavi-Prudhivi/chatgpt" target="_blank" rel="noopener">
+    <div class="repo-dot"></div>
+    <div>
+      <strong>ChatGPT Repository</strong>
+      <p>Implemented Transformer attention mechanisms and training loops in PyTorch, exploring how modern language models learn long-range dependencies in text.</p>
+    </div>
+  </a>
+</div>
+  `
+},
+
+focuslab: {
+  title: "FocusLAB",
+  body: `
+    <div class="modal-section">Overview</div>
+
+    <p>
+      <strong>FocusLAB</strong> is a Human–Computer Interaction (HCI) project centered on designing
+      a digital tool to help users <strong>improve focus</strong>, <strong>manage distractions</strong>,
+      and build sustainable productivity habits. The work emphasized how interface design and interaction
+      flows can shape user attention and behavior.
+    </p>
+
+    <p>
+      The project followed a <strong>user-centered design process</strong>, starting with user research
+      and synthesis of common focus challenges into actionable design requirements. From there, I created
+      wireframes and interactive prototypes exploring task organization, visual hierarchy, and feedback
+      patterns aimed at reducing cognitive load.
+    </p>
+
+    <div class="modal-section">Process</div>
+
+    <ul>
+      <li><strong>User research:</strong> identified pain points and needs through analysis and feedback</li>
+      <li><strong>Prototyping:</strong> translated insights into wireframes + interactive UI concepts</li>
+      <li><strong>Usability testing:</strong> iterated on navigation, layout, and interaction clarity</li>
+    </ul>
+
+    <div class="modal-section">Skills &amp; tools</div>
+
+    <ul>
+      <li>Human-centered design (HCD) and UX research</li>
+      <li>Prototyping and iteration based on usability feedback</li>
+      <li>Interaction design and information architecture</li>
+    </ul>
+
+    <div class="modal-section">GitHub</div>
+    <div class="repo-list">
+      <a class="repo-card" href="https://github.com/Jahnavi-Prudhivi/focuslab" target="_blank" rel="noopener">
+        <div class="repo-dot"></div>
+        <div>
+          <strong>FocusLab Repository</strong>
+          <p>The project applies user research and iterative prototyping to design a productivity tool grounded in real user needs and behavioral insights</p>
+        </div>
+      </a>
+    </div>
+  `
+},
+
+    
+    mlhw: {
+      title: "Machine Learning HW 1–3",
+      body: `
+        
+
+<div class="modal-section">Overview</div>
+
+<p>
+  This project involved implementing and evaluating several <strong>machine learning algorithms</strong> across both
+  <strong>unsupervised clustering</strong> and <strong>supervised classification</strong>, with a focus on understanding
+  algorithm behavior, performance trade-offs, and evaluation metrics.
+</p>
+
+<p>
+  Rather than only using pre-built tools, key methods were implemented from scratch to better understand the mechanics
+  behind optimization, convergence, and how modeling choices affect real-world performance.
+</p>
+
+<div class="modal-section">Clustering (Unsupervised Learning)</div>
+
+<p>
+  I implemented <strong>k-means</strong> from first principles and applied it to a 2D dataset to analyze centroid updates,
+  distance-based assignments, and cluster stability. I then extended clustering to the
+  <strong>handwritten digits dataset</strong>, comparing <strong>k-means</strong>,
+  <strong>agglomerative clustering (Ward linkage)</strong>, and <strong>affinity propagation</strong>.
+</p>
+
+<ul>
+  <li>Compared clustering behavior across multiple graph/topology-like structures in high-dimensional data</li>
+  <li>Evaluated results using <strong>confusion matrices</strong> and the <strong>Fowlkes–Mallows index</strong></li>
+</ul>
+
+<div class="modal-section">Classification (Supervised Learning)</div>
+
+<p>
+  For supervised learning, I worked with the <strong>Chronic Kidney Disease (CKD) dataset</strong>, a real-world medical
+  dataset with noisy and imbalanced characteristics. I implemented <strong>logistic regression</strong> with
+  <strong>regularization</strong> and tested performance across a range of regularization strengths (<em>&lambda;</em>),
+  analyzing how model complexity impacts generalization.
+</p>
+
+<p>
+  Performance was measured using the <strong>F-measure</strong> on both training and test sets, and experiments were
+  repeated with <strong>feature standardization</strong> to study the effect of normalization. I also compared results
+  against baseline models including <strong>SVMs (linear and RBF)</strong> and <strong>Random Forests</strong>.
+</p>
+
+<div class="modal-section">Tools &amp; Techniques</div>
+
+<ul>
+  <li>Algorithm implementation: k-means, logistic regression (regularized)</li>
+  <li>Model comparison: SVM (linear/RBF), Random Forest</li>
+  <li>Evaluation: confusion matrix, F-measure, Fowlkes–Mallows index</li>
+  <li>Preprocessing: feature standardization / normalization</li>
+</ul>
+
+ <div class="modal-section">GitHub</div>
+    <div class="repo-list">
+      <a class="repo-card" href="https://github.com/Jahnavi-Prudhivi/ml-implementations" target="_blank" rel="noopener">
+        <div class="repo-dot"></div>
+        <div>
+          <strong>FocusLab Repository</strong>
+          <p>Compared model behavior across datasets (digits + CKD) to understand generalization and trade-offs</p>
+        </div>
+      </a>
+    </div>
+      `
+    },
+    asl: {
+      title: "ASL Gesture Recognition",
+      body: `
+        <!-- MudraAI (ASL to Speech) -->
+
+<div class="modal-section">Overview</div>
+
+<p>
+  <strong>MudraAI</strong> is a computer vision + machine learning project that translates
+  <strong>American Sign Language (ASL) hand gestures</strong> into <strong>text</strong> and
+  <strong>spoken audio</strong>. The goal is to build an accessibility-focused system that helps bridge
+  communication by turning visual gestures into speech output.
+</p>
+
+<p>
+  The pipeline captures a live camera feed, extracts hand features/landmarks, and performs
+  <strong>real-time gesture recognition</strong> using a trained model. Once a sign is classified, the
+  predicted label is converted into readable text and then synthesized into speech to create an
+  end-to-end <strong>ASL-to-audio translation</strong> experience.
+</p>
+
+<div class="modal-section">Key components</div>
+
+<ul>
+  <li><strong>Computer vision:</strong> Frame processing + hand feature extraction</li>
+  <li><strong>ML inference:</strong> Gesture classification from extracted features</li>
+  <li><strong>Speech output:</strong> Text-to-speech generation from predicted signs</li>
+  <li><strong>Real-time loop:</strong> Continuous prediction for smooth interaction</li>
+</ul>
+
+<div class="modal-section">GitHub</div>
+
+<div class="repo-list">
+  <a
+    class="repo-card"
+    href="https://github.com/Jahnavi-Prudhivi/MudraAI-ASL-To-Speech-Generator-"
+    target="_blank"
+    rel="noopener"
+  >
+    <div class="repo-dot"></div>
+    <div>
+      <strong>MudraAI Repository</strong>
+      <p>
+        Vision-based ASL gesture recognition pipeline with real-time inference and text-to-speech output.
+      </p>
+    </div>
+  </a>
+</div>
+      `
+    },
+  };
+
+  const backdrop = document.getElementById('backdrop');
+  const modalTitle = document.getElementById('modalTitle');
+  const modalBody = document.getElementById('modalBody');
+  const closeBtn = document.getElementById('closeBtn');
+
+function openModal(key){
+  const p = projects[key];
+  if(!p) return;
+
+  modalTitle.textContent = p.title;
+  modalBody.innerHTML = p.body;
+
+  modalBody.scrollTop = 0; // ✅ reset scroll to top every time
+
+  backdrop.style.display = 'flex';
+  backdrop.setAttribute('aria-hidden', 'false');
+  document.body.style.overflow = 'hidden';
+}
+
+  function closeModal(){
+    backdrop.style.display = 'none';
+    backdrop.setAttribute('aria-hidden', 'true');
+    modalBody.innerHTML = '';
+    document.body.style.overflow = '';
+  }
+
+  document.querySelectorAll('.card').forEach(card => {
+    card.addEventListener('click', () => openModal(card.dataset.project));
+    card.addEventListener('keydown', (e) => {
+      if(e.key === 'Enter' || e.key === ' ') openModal(card.dataset.project);
+    });
+  });
+
+  closeBtn.addEventListener('click', closeModal);
+  backdrop.addEventListener('click', (e) => {
+    if(e.target === backdrop) closeModal();
+  });
+
+  window.addEventListener('keydown', (e) => {
+    if(e.key === 'Escape' && backdrop.style.display === 'flex') closeModal();
+  });
+
+  // ===== Active Nav Link + Reveal on Scroll =====
+  const sections = document.querySelectorAll("main section[id]");
+  const navLinks = document.querySelectorAll(".nav-link");
+
+  function setActiveLink(id){
+    navLinks.forEach(a => {
+      const isActive = a.getAttribute("href") === `#${id}`;
+      a.classList.toggle("active", isActive);
+      if (isActive) a.setAttribute("aria-current", "page");
+      else a.removeAttribute("aria-current");
+    });
+  }
+
+  const sectionObserver = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if(entry.isIntersecting){
+        setActiveLink(entry.target.id);
+      }
+    });
+  }, { rootMargin: "-35% 0px -55% 0px", threshold: 0.01 });
+
+  sections.forEach(sec => sectionObserver.observe(sec));
+
+  const revealObserver = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if(entry.isIntersecting){
+        entry.target.classList.add("in-view");
+        revealObserver.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.12 });
+
+  document.querySelectorAll(".reveal").forEach(el => revealObserver.observe(el));
+</script>
+
+</body>
+</html>
